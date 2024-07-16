@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+
+</head>
+<body>
+
+<div class="grid_container">
+    <div class="grid_box"></div>
+    <div class="grid_box"></div>
+    <div class="grid_box"></div>
+    <div class="left_row">
+        <div id="hihat" class="box">
+            <div><h3></h3></div>
+           <img src="./drum_image/icons/hi-hat.png" alt="" width="56px" height="56px">
+        </div>
+        <div id="crash" class="box">
+            <div data-key="119"><h3></h3></div>
+            <img src="./drum_image/icons/crash_.png" alt="" width="56px" height="56px"><img src="./drum_image/icons/crash.png" alt=""width="56px" height="56px">
+        </div>
+        <div id="ride" class="box">
+            <h3></h3>
+            <img src="./drum_image/icons/ride.png" alt=""width="56px" height="56px">
+        </div>
+        <div id="snare" class="box">
+            <h3></h3>
+            <img src="./drum_image/icons/snare-drum (1).png" alt=""width="56px" height="56px">
+        </div>
+        <div id="kick" class="box">
+            <h3></h3>
+            <img src="./drum_image/icons/bass-drum.png" alt=""width="56px" height="56px">
+        </div>
+        <div id="" class="box">
+            <h3></h3>
+            <img src="./drum_image/icons/tom_2.png" alt="" width="56px" height="35px">
+        </div>
+        <div id="" class="box">
+            <h3></h3>
+            <img src="./drum_image/icons/tom_2.png" alt="" width="56px" height="35px">
+        </div>
+        <div id="tom" class="box">
+            <h3></h3>
+            <img src="./drum_image/icons/floor-tom.png" alt=""width="56px" height="56px">
+        </div>
+        <div id="clap" class="box">
+            <h3></h3>
+            <img src="./drum_image/icons/clapping.png" alt=""width="56px" height="56px">
+        </div>
+    </div>
+        <div class="middle_box">    
+            <div class="drum_kit">
+              <img id="drum_kit_kick" src="./drum_image/drumkit/kick.PNG" alt="" width="529" height="350">
+              <img id="drum_kit_tom_1" src="./drum_image/drumkit/tom_1.PNG" alt="" width="529" height="350">
+              <img id="drum_kit_tom_2" src="./drum_image/drumkit/tom_2.PNG" alt="" width="529" height="350">
+              <img id="drum_kit_tom_3" src="./drum_image/drumkit/tom_3.PNG" alt="" width="529" height="350">
+              <img id="drum_kit_snare" src="./drum_image/drumkit/snare.PNG" alt="" width="529" height="350">
+              <img id="drum_kit_high-hat" src="./drum_image/drumkit/highhat.PNG" alt="" width="529" height="350">
+              <img id="drum_kit_crash" src="./drum_image/drumkit/crash.PNG" alt="" width="529" height="350">
+              <img id="drum_kit_ride" src="./drum_image/drumkit/ride.PNG" alt="" width="529" height="350">
+             </div>
+        </div> 
+    <div class="grid_box"></div>
+    <div class="grid_box"></div>
+    <div class="grid_box"></div>
+    <div class="grid_box"></div>
+</div>
+<audio id="sound_HH" data-key="97" src="./sounds/sounds/hihat.wav"></audio> 
+<audio id="sound_crash" data-key="119" src="./sounds/sounds/openhat.wav"></audio>
+<audio id="sound_ride" data-key="103" src="./sounds/sounds/ride.wav"></audio> 
+<audio id="sound_kick" data-key="120" src="./sounds/sounds/kick.wav"></audio>
+<audio id="sound_snare" data-key="115" src="./sounds/sounds/snare.wav"></audio>
+<audio id="sound_tom" data-key="102" src="./sounds/sounds/tom.wav"></audio>
+<audio id="sound_clap" data-key="13" src="./sounds/sounds/clap.wav"></audio>
+
+
+<script src="./script.js"></script>
+</body>
+</html>
